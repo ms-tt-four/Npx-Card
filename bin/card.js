@@ -14,7 +14,7 @@ const options = {
 };
 // Text + chalk definitions
 const data = {
-  'name': chalk.white('Alex Frankenberger/'),
+  'name': chalk.white('Alex Frankenberger /'),
   'handle': chalk.cyan('alexfrankenberger'),
   'work': chalk.blueBright('Founder & CEO @ MunichConsultants'),
   'twitter': chalk.cyan('@AlexFrankenberg'),
@@ -34,14 +34,14 @@ const data = {
 
 // Actual strings we're going to output
 const newline = '\n'
-const heading = ${data.name} ${data.handle};
-const working = ${data.labelWork}  ${data.work};
-const twittering = ${data.labelTwitter}  ${data.twitter};
-const githubing = ${data.labelGitHub}  ${data.github};
-const linkedining = ${data.labelLinkedIn}  ${data.linkedin};
-const xinging = ${data.labelXing}  ${data.xing};
-const webing = ${data.labelWeb}  ${data.web};
-const carding = ${data.labelCard}  ${data.npx};
+const heading = data.name + '  ' +  data.handle;
+const working = data.labelWork + '  ' + data.work;
+const twittering = data.labelTwitter + '  ' + data.twitter;
+const githubing = data.labelGitHub + '  ' + data.github;
+const linkedining = data.labelLinkedIn +  '  ' + data.linkedin;
+const xinging = data.labelXing + '  ' + data.xing;
+const webing = data.labelWeb + '  ' + data.web;
+const carding = data.labelCard + '  ' + data.npx;
 
 // Put all our output together into a single variable so we can use boxen effectively
 const output = heading + newline + newline + working + newline + newline + twittering + newline + githubing + newline + linkedining + newline + xinging + newline + webing + newline + newline + carding;
