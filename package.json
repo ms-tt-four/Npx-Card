@@ -1,24 +1,24 @@
 {
-  "name": "alexfrankenberger",
+  "name": "martinschloegl",
   "version": "1.0.2",
-  "description": "Alex Frankenberger personal card (@alexfrankenberger)",
+  "description": "Martin Schloegl personal card (@martinschloegl)",
   "main": "index.js",
   "bin": {
     "bitandbang": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexfrankenberger/npx-card.git"
+    "url": "https://github.com/ms-tt-four/npx-card.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Alex Frankenberger <alex@munichConsultants.tech> (http://munichConsultants.tech)",
+  "author": "Martin Schloegl <martin.schloegl@tt-four.com> (http://tt-four.com)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",
-    "chalk": "^2.4.1",
+    "chalk": "^2.4.2",
     "commander": "^2.19.0"
   },
   "devDependencies": {
